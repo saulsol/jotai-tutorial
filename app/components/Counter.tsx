@@ -1,7 +1,7 @@
 'use client'
 
 import { useAtom } from "jotai";
-import { countAtom } from "../config/atom";
+import { countAtom } from "../config/Atom";
 
 export default function Counter() {
     const [count, setCount] = useAtom(countAtom);
